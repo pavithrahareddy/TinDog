@@ -1,0 +1,176 @@
+body {
+  font-family: "Montserrat";
+}
+
+#title {
+  background-color: #ff4c68;
+  padding: 3% 15% 13% 15%;
+  color: white;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+h1 {
+  font-family: 'Montserrat', sans-serif;
+  color: white;
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+h2 {
+  font-family: 'Montserrat';
+  font-size: 2rem !important;
+  line-height: 1.5 !important;
+}
+
+h3 {
+  font-family: 'Montserrat' !important;
+  font-size: 1.5rem;
+}
+
+p {
+  color: #8f8f8f;
+}
+
+/* navbar */
+.navbar {
+  padding: 0 0 3.5rem 0 !important;
+}
+
+.navbar-brand {
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 1.75rem !important;
+  font-weight: bold;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.navlink {
+  font-size: 1.75rem;
+  font-family: "Montserrat-Light";
+}
+
+/*Download buuton*/
+.download-button {
+  margin: 5% 5% 0% 0;
+}
+
+.play-button {
+  margin: 5% 0% 0% 0;
+}
+
+/*title image*/
+.titleimage {
+  width: 55%;
+  transform: rotate(25deg);
+  position: absolute;
+  right: 30%;
+}
+
+#features {
+  padding: 3% 15%;
+  background-color: white;
+  position: relative;
+  z-index: 0.25;
+}
+
+.feature-box {
+  text-align: center;
+  padding: 4.5%;
+}
+
+.icon {
+  color: #ef8172;
+  font-size: 3.5rem;
+  padding: 5%
+}
+
+.icon:hover {
+  color: #ff4c68;
+}
+
+#testimonials {
+  text-align: center;
+  background-color: #f76a8c;
+  color: white;
+}
+
+#testimonials:hover {
+  background-color: #ff4c68;
+}
+
+.testimonial-image {
+  width: 15%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+.carousel-item {
+  padding: 7% 25% !important;
+}
+
+#press {
+  background-color: #f5f4f4;
+  padding: 3%;
+  text-align: center;
+}
+
+.presslogo {
+  margin: 20px 20px 50px;
+  width: 15%;
+}
+
+#pricing {
+  text-align: center;
+  padding: 75px;
+}
+
+.Pricingcolumn {
+  padding: 3% 3% 1% 3%;
+  text-align: center;
+}
+
+.Pricingcolumn:hover {
+  background-color: #ff4c68;
+}
+
+/* Call to Action */
+#cta {
+  background-color: #ff4c68;
+  padding: 5% 15%;
+  text-align: center;
+  color: white;
+}
+
+.ctah3 {
+  font-family: 'Montserrat' !important;
+  font-size: 2.5rem;
+}
+
+/* Footer */
+#footer {
+  text-align: center;
+  padding: 1%;
+}
+
+.footer-icons {
+  margin: 20px 10px;
+}
+
+@media (max-width:1028px) {
+  #title {
+    text-align: center;
+  }
+
+  .titleimage {
+    position: static;
+    transform: rotate(0);
+    padding-top: 5%;
+  }
+
+  .presslogo {
+    margin: 20px 20px 50px;
+    width: 30%;
+  }
+}
